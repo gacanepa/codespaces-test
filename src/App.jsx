@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+// Just adding a comment
 const RotatingTorus = () => {
   const canvasRef = useRef(null);
   const [rotation, setRotation] = useState({ x: 0, y: 0, z: 0 });
